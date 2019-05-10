@@ -6,6 +6,7 @@
 }
 .container{
   width: 70%;
+  height: auto;
   margin: 0 auto;
   border: 1px solid black;
   position: relative;
@@ -30,4 +31,20 @@ i{
 }
 img.visibile{
   display:block;
+}
+.buttons{
+  background-color: rgb(58, 59, 61, 0.5);
+  width: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+.buttons i{
+  padding: 10px;
+  color: black;
+}
+i.acceso{
+  color: white;
 }
